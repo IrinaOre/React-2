@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.toolbar-item {
+  border: 1px solid black;
+  padding: 8px 16px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.toolbar-item-selected {
+  background-color: black;
+  color: white;
+  padding: 8px 16px;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  list-style: none;
+}
+
+.project-list__img {
+  display: block;
+  width: 100%;
+}
