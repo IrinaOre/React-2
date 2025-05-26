@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/IrinaOre/React-2.git/static/css/main.1d84737f.css",
-    "main.js": "/IrinaOre/React-2.git/static/js/main.c861159e.js",
-    "index.html": "/IrinaOre/React-2.git/index.html",
-    "main.1d84737f.css.map": "/IrinaOre/React-2.git/static/css/main.1d84737f.css.map",
-    "main.c861159e.js.map": "/IrinaOre/React-2.git/static/js/main.c861159e.js.map"
+    "main.css": "/React-2/static/css/main.1d84737f.css",
+    "main.js": "/React-2/static/js/main.c861159e.js",
+    "index.html": "/React-2/index.html",
+    "main.1d84737f.css.map": "/React-2/static/css/main.1d84737f.css.map",
+    "main.c861159e.js.map": "/React-2/static/js/main.c861159e.js.map"
   },
   "entrypoints": [
     "static/css/main.1d84737f.css",
