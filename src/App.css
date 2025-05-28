@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,36 +11,102 @@ body {
   margin: 0 auto;
 }
 
-.toolbar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 32px;
-  gap: 16px;
-  margin-bottom: 32px;
-}
-
-.toolbar-item {
-  border: 1px solid black;
-  padding: 8px 16px;
-  cursor: pointer;
-  list-style: none;
-}
-
-.toolbar-item-selected {
-  background-color: black;
-  color: white;
-  padding: 8px 16px;
-}
-
-.project-list {
+/* Cards view */
+.shop-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  list-style: none;
+  gap: 30px;
 }
 
-.project-list__img {
+.shop-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  text-align: center;
+  list-style: none;
+  box-shadow: 0px 5px 10px 0px #adb5bd;
+  aspect-ratio: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-title {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.shop-card_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-price {
+  color: #ef233c;
+  font-size: 18px;
+}
+
+.footer-btn {
+  border: 2px solid #ef233c;
+  border-radius: 20px;
+  padding: 8px 16px;
+  color: #ef233c;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+/* List view */
+
+.shop-lists {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 10px;
+}
+
+.shop-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px;
+  background-color: rgb(245, 245, 245);
+}
+
+.shop-list_img {
+  width: 120px;
+}
+
+.shop-list_title {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.shop-list_price {
+  color: #ef233c;
+  font-size: 18px;
+}
+
+.shop-list_btn {
+  border: 2px solid #ef233c;
+  border-radius: 20px;
+  padding: 8px 16px;
+  color: #ef233c;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+/* Icon Switch */
+.icon-switch {
   display: block;
-  width: 100%;
+  margin-left: auto;
+  width: 40px;
+
+  cursor: pointer;
+}
+
+.store_header {
+  padding: 20px 10px;
 }
